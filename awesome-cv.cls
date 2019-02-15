@@ -21,7 +21,7 @@
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
+\ProvidesClass{awesome-cv/awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
 \NeedsTeXFormat{LaTeX2e}
 
 
@@ -94,7 +94,7 @@
 %                Configuration for directory locations
 %-------------------------------------------------------------------------------
 % Configure a directory location for fonts(default: 'fonts/')
-\newcommand*{\fontdir}[1][fonts/]{\def\@fontdir{#1}}
+\newcommand*{\fontdir}[1][awesome-cv/fonts/]{\def\@fontdir{#1}}
 \fontdir
 
 
